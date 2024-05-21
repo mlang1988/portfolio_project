@@ -92,3 +92,23 @@ h2 {
   font-size: 16px;
   font-weight: 500;
 }
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .project-paragraph {
+    text-align: center;
+    width: 100%;
+  }
+  .btn-projects {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
