@@ -25,6 +25,13 @@ h1 {
   line-height: 1;
 }
 
+p {
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
 .sub-heading {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -45,4 +52,43 @@ h1 {
 .btn:hover {
   color: #30023b;
   background-color: var(--branding-color);
+}
+
+hr {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+img {
+  width: 400px;
+  margin-left: 60px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 55px 0;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.project-paragraph {
+  text-align: left;
+  opacity: 70%;
+  font-size: 16px;
+}
+
+.btn-projects {
+  border-radius: 4px;
+  padding: 18px 25px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 16px;
+  font-weight: 500;
 }
