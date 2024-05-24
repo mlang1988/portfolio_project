@@ -63,7 +63,7 @@ h1 {
 }
 
 .btn:hover {
-  color: #30023b;
+  color: #30023b !important;
   background-color: var(--branding-color);
 }
 
@@ -151,6 +151,30 @@ h4 {
   padding-bottom: 118px;
 }
 
+footer .contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+footer .social-links a {
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--branding-color);
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 48px;
@@ -176,5 +200,8 @@ h4 {
   }
   .content-container img {
     padding: 10px;
+  }
+  footer .contact-box h4 {
+    font-size: 24px;
   }
 }
