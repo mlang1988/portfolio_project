@@ -15,7 +15,7 @@ ul a:hover {
 
 .hero {
   background-color: #f9f7fe;
-  padding: 190px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -75,7 +75,7 @@ hr {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 img {
@@ -117,7 +117,7 @@ h4 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 40px 20px;
 }
 
 .content-container h1 {
@@ -149,6 +149,10 @@ h4 {
 
 .ai-img {
   padding-bottom: 118px;
+}
+
+footer {
+  margin-top: 100px;
 }
 
 footer .contact-box h4 {
