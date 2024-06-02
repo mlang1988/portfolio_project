@@ -175,8 +175,12 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
-  background: var(--branding-color);
+.github-logo {
+  transition: all 200ms ease-in-out;
+}
+
+.github-logo:hover {
+  transform: scale(1.4);
 }
 
 @media (max-width: 992px) {
