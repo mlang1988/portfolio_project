@@ -27,18 +27,41 @@ ul a:hover {
   text-align: center;
 }
 
-.introduction {
-  font-family: var(--default-font-family);
-  font-size: 36px;
-  font-weight: bold;
-  color: var(--secondary-color);
-}
-
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
   line-height: 1;
+}
+
+h2 {
+  margin: 55px 0;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+hr {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--secondary-color);
+}
+
+img {
+  border-radius: 4px;
+}
+
+.introduction {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--secondary-color);
 }
 
 .project-heading {
@@ -53,16 +76,6 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   color: var(--secondary-color);
-}
-
-.contact-email {
-  text-decoration: none;
-  color: var(--branding-color);
-  font-size: 20px;
-}
-
-.contact-email:hover {
-  filter: brightness(200%);
 }
 
 .btn-branding {
@@ -83,19 +96,8 @@ h1 {
   font-weight: 500;
 }
 
-hr {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid var(--secondary-color);
-}
-
 .container {
   margin-top: 60px;
-}
-
-img {
-  border-radius: 4px;
 }
 
 .project-img {
@@ -103,18 +105,6 @@ img {
   margin-left: 60px;
   border-radius: 4px;
   padding-right: 60px;
-}
-
-h2 {
-  margin: 55px 0;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  font-size: 64px;
-}
-
-h4 {
-  font-size: 24px;
-  font-family: var(--default-font-family);
 }
 
 .project-paragraph {
@@ -154,8 +144,10 @@ h4 {
 
 .content-container h3 {
   font-family: var(--default-font-family);
-  font-size: 18px;
+  font-size: 24px;
   color: var(--secondary-color);
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .content-container p {
@@ -180,6 +172,16 @@ h4 {
 
 .contact-form {
   background: #fcf5e4;
+}
+
+.contact-email {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 20px;
+}
+
+.contact-email:hover {
+  filter: brightness(200%);
 }
 
 footer {
@@ -221,6 +223,7 @@ footer .github-logo:hover {
 footer .github-link {
   color: var(--branding-color);
 }
+
 @media (max-width: 992px) {
   h1 {
     font-size: 48px;
