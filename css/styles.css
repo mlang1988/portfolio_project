@@ -1,8 +1,16 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #392ed3;
   --secondary-color: #272142;
   --heading-font-family: "Baskerville Old Face", serif;
   --default-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans;
+}
+
+body {
+  background: #fcf6ef;
+}
+
+a {
+  text-decoration: none;
 }
 
 .active {
@@ -14,7 +22,7 @@ ul a:hover {
 }
 
 .hero {
-  background-color: #f9f7fe;
+  background-color: #fcf6ef;
   padding: 60px 20px;
   text-align: center;
 }
@@ -47,9 +55,14 @@ h1 {
   color: var(--secondary-color);
 }
 
-.content a {
+.contact-email {
   text-decoration: none;
   color: var(--branding-color);
+  font-size: 20px;
+}
+
+.contact-email:hover {
+  filter: brightness(200%);
 }
 
 .btn-branding {
@@ -58,13 +71,16 @@ h1 {
   color: white !important;
   padding: 18px 46px;
   font-family: var(--default-font-family);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
+  transition: all 200ms ease-in-out;
 }
 
-.btn:hover {
-  color: #30023b !important;
-  background-color: var(--branding-color);
+.btn-branding:hover {
+  color: var(--branding-color) !important;
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  font-weight: 500;
 }
 
 hr {
@@ -114,6 +130,17 @@ h4 {
   color: var(--branding-color);
   font-size: 16px;
   font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-projects:hover {
+  border-radius: 4px;
+  padding: 18px 25px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 16px;
+  font-weight: 500;
+  transform: scale(1.2);
 }
 
 .content-container {
@@ -151,6 +178,10 @@ h4 {
   padding-bottom: 118px;
 }
 
+.contact-form {
+  background: #fcf5e4;
+}
+
 footer {
   margin-top: 100px;
 }
@@ -168,6 +199,10 @@ footer .email-link {
   font-size: 24px;
 }
 
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 footer .social-links a {
   padding: 10px 14px;
   border-radius: 50%;
@@ -175,14 +210,17 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-.github-logo {
+footer .github-logo {
   transition: all 200ms ease-in-out;
 }
 
-.github-logo:hover {
+footer .github-logo:hover {
   transform: scale(1.4);
 }
 
+footer .github-link {
+  color: var(--branding-color);
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 48px;
